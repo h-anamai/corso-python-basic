@@ -1,4 +1,4 @@
-# 🐍 Corso Python per Principianti
+# 🐍 Corso Python per Principianti - by gmxdev.io
 
 Benvenuto al corso base di Python! Questo repository contiene una serie di notebook progettati per guidarti nei primi passi con il linguaggio Python, con esempi pratici ed esercitazioni.
 
@@ -28,3 +28,14 @@ Puoi aprire questi file in diversi modi:
 ```bash
 pip install notebook
 jupyter notebook
+```
+
+---
+
+© 2025 gmxdev.io — All rights reserved.  
+This material is the exclusive property of gmxdev.io and may not be copied, distributed, or modified without permission.
+
+© 2025 gmxdev.io — Tutti i diritti riservati.  
+Questo materiale è di proprietà esclusiva di gmxdev.io e non può essere copiato, distribuito o modificato senza autorizzazione.
+
+
