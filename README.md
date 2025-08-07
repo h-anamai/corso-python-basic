@@ -15,8 +15,9 @@ Benvenuto al corso base di Python! Questo repository contiene una serie di noteb
 | [06_gestione_errori.ipynb](06_gestione_errori.ipynb)   | Come gestire gli errori                              |
 | [07_funzioni_moduli.ipynb](07_funzioni_moduli.ipynb)   | Usare funzioni e moduli                              |
 | [08_fileio.ipynb](08_fileio.ipynb)                     | Leggere e scrivere da file                           |
-| [09_librerie_standard.ipynb](08_fileio.ipynb)          | Usare i moduli della libreria standard               |
-| [10_oop.ipynb](08_fileio.ipynb)                        | Programmazione Orientata agli Oggetti, concetti base |
+| [09_librerie_standard.ipynb](09_librerie_standard.ipynb)          | Usare i moduli della libreria standard               |
+| [10_oop.ipynb](10_oop.ipynb)                        | Programmazione Orientata agli Oggetti, concetti base |
+| [11_progetto.ipynb](11_progetto.ipynb)                        | Realizzazione di una semplice applicazione |
 | [appendix.ipynb](appendix.ipynb)                       | La storia di Python                                  |
 
 ## 🎯 Obiettivi del corso
