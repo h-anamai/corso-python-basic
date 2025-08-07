@@ -25,3 +25,5 @@ yarn-error.log*
 
 server/node_modules
 server/package-lock.json
+
+.ipynb_checkpoints/
