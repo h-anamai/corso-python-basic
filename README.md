@@ -4,21 +4,21 @@ Benvenuto al corso base di Python! Questo repository contiene una serie di noteb
 
 ## 📚 Sommario
 
-| Modulo                                                 | Descrizione                                          |
-|--------------------------------------------------------|------------------------------------------------------|
-| [00_sommario_corso.ipynb](00_sommario_corso.ipynb)     | Introduzione e panoramica del corso    <br/>         |
-| [01_primi_passi.ipynb](01_sintassi_base.ipynb)         | Primi passi con il linguaggio                        |
-| [02_sintassi_base.ipynb](01_sintassi_base.ipynb)       | Sintassi base: commenti, indentazione, primi esempi  |
-| [03_jupyter_notebook.ipynb](02_jupyter_notebook.ipynb) | Usare Jupyter Notebook per eseguire codice           |
-| [04_variabili_tipi.ipynb](03_variabili_tipi.ipynb)     | Variabili, tipi di dati e strutture di controllo     | |
-| [05_strutture_dati.ipynb](05_strutture_dati.ipynb)     | Utilizzare le strutture dati più comuni              |
-| [06_gestione_errori.ipynb](06_gestione_errori.ipynb)   | Come gestire gli errori                              |
-| [07_funzioni_moduli.ipynb](07_funzioni_moduli.ipynb)   | Usare funzioni e moduli                              |
-| [08_fileio.ipynb](08_fileio.ipynb)                     | Leggere e scrivere da file                           |
-| [09_librerie_standard.ipynb](09_librerie_standard.ipynb)          | Usare i moduli della libreria standard               |
-| [10_oop.ipynb](10_oop.ipynb)                        | Programmazione Orientata agli Oggetti, concetti base |
-| [11_progetto.ipynb](11_progetto.ipynb)                        | Realizzazione di una semplice applicazione |
-| [appendix.ipynb](appendix.ipynb)                       | La storia di Python                                  |
+| Modulo                                          | Descrizione                                          |
+|-------------------------------------------------|------------------------------------------------------|
+| [00_sommario_corso.ipynb](00_sommario_corso.ipynb) | Introduzione e panoramica del corso    <br/>         |
+| [01_primi_passi.ipynb](01_sintassi_base.ipynb)  | Primi passi con il linguaggio                        |
+| [02_sintassi_base.ipynb](02_sintassi_base.ipynb) | Sintassi base: commenti, indentazione, variabili, tipi di dato, controllo del flusso, cicli  |
+| [03_jupyter_notebook.ipynb](03_jupyter_notebook.ipynb) | Usare Jupyter Notebook per eseguire codice           |
+| [04_strutture_dati.ipynb](04_strutture_dati.ipynb) | Utilizzare le strutture dati più comuni              |
+| [05_gestione_errori.ipynb](05_gestione_errori.ipynb) | Come gestire gli errori                              |
+| [06_funzioni_moduli.ipynb](06_funzioni_moduli.ipynb) | Usare funzioni e moduli                              |
+| [07_fileio.ipynb](07_fileio.ipynb)              | Leggere e scrivere da file                           |
+| [08_librerie_standard.ipynb](08_librerie_standard.ipynb) | Usare i moduli della libreria standard               |
+| [09_librerie.ipynb](08_librerie_standard.ipynb) | Usare moduli addizionali ed ambienti virtuali
+| [10_oop.ipynb](10_oop.ipynb)                    | Programmazione Orientata agli Oggetti, concetti base |
+| [11_progetto.ipynb](11_progetto.ipynb)          | Realizzazione di una semplice applicazione |
+| [appendix.ipynb](appendix.ipynb)                | La storia di Python                                  |
 
 ## 🎯 Obiettivi del corso
 
