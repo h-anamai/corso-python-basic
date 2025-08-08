@@ -17,7 +17,8 @@ Benvenuto al corso base di Python! Questo repository contiene una serie di noteb
 | [08_librerie_standard.ipynb](08_librerie_standard.ipynb) | Usare i moduli della libreria standard               |
 | [09_librerie.ipynb](08_librerie_standard.ipynb) | Usare moduli addizionali ed ambienti virtuali
 | [10_oop.ipynb](10_oop.ipynb)                    | Programmazione Orientata agli Oggetti, concetti base |
-| [11_progetto.ipynb](11_progetto.ipynb)          | Realizzazione di una semplice applicazione |
+| [11_testunit.ipynb](11_testunit.ipynb)          | Progettare test unitari per i programmi |
+| [12_progetto.ipynb](12_progetto.ipynb)          | Realizzazione di una semplice applicazione |
 | [appendix.ipynb](appendix.ipynb)                | La storia di Python                                  |
 
 ## 🎯 Obiettivi del corso
@@ -25,6 +26,8 @@ Benvenuto al corso base di Python! Questo repository contiene una serie di noteb
 - Imparare la sintassi base di Python
 - Eseguire codice in un ambiente interattivo (Jupyter)
 - Comprendere i concetti fondamentali della programmazione
+- Usare la Programmazione Orientata agli Oggetti
+- Progettare test unitari per i programmi
 - Sviluppare script
 
 ## ▶️ Come usare i notebook
