@@ -45,7 +45,4 @@ jupyter notebook
 © 2025 hanam.io — All rights reserved.  
 This material is the exclusive property of gmxdev.io and may not be copied, distributed, or modified without permission.
 
-© 2025 hanam.io — Tutti i diritti riservati.  
-Questo materiale è di proprietà esclusiva di gmxdev.io e non può essere copiato, distribuito o modificato senza autorizzazione.
-
 
