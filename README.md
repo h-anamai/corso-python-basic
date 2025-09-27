@@ -6,6 +6,12 @@
 
 Benvenuto al corso base di Python! Questo repository contiene una serie di notebook progettati per guidarti nei primi passi con il linguaggio Python, con esempi pratici ed esercitazioni.
 
+Per domande e contenuti extra, unisciti ai nostri canali:
+
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/+gTwagH1r9kVjMjY0)
+[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/gkjMTFSVc)
+
+
 ## 📚 Sommario
 
 | Modulo                                                   | Descrizione                                          |
@@ -164,5 +170,4 @@ Basta cliccare sul badge e attendere l’avvio dell’ambiente interattivo.
 
 ---
 
-© 2025 [hanam.io](https://hanam.ai) — All rights reserved.  
-This material is the exclusive property of hanam.ai and may not be copied, distributed, or modified without permission.
+&copy; 2025 Hanamai. All rights reserved. | Built with precision for real-time data streaming excellence.
