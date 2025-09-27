@@ -1,7 +1,7 @@
 # 🐍 Corso Python Basic
 
 [![Python Version](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3110/)
-[![GitHub Release](https://img.shields.io/github/v/release/hanamai-ai/corso-python-basic?color=green)](https://github.com/hanamai-ai/corso-python-basic/releases)
+[![GitHub Release](https://img.shields.io/github/v/release/h-anamai/corso-python-basic?color=green)](https://github.com/h-anamai/corso-python-basic/releases)
 
 
 Benvenuto al corso base di Python! Questo repository contiene una serie di notebook progettati per guidarti nei primi passi con il linguaggio Python, con esempi pratici ed esercitazioni.
@@ -155,7 +155,7 @@ jupyter lab
 
 Se non vuoi installare nulla, puoi aprire i notebook direttamente su [Google Colab](https://colab.research.google.com/):
 
-[![Apri in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hanamai-ai/corso-python-basic)
+[![Apri in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/h-anamai/corso-python-basic)
 
 1. Vai su Colab e seleziona **File → Carica notebook**.
 2. Oppure usa il badge qui sopra.
@@ -167,7 +167,7 @@ Se non vuoi installare nulla, puoi aprire i notebook direttamente su [Google Col
 
 Puoi anche eseguire i notebook online senza installazioni tramite [Binder](https://mybinder.org/):
 
-[![Esegui su Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hanamai-ai/corso-python-basic/HEAD)
+[![Esegui su Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/h-anamai/corso-python-basic/HEAD)
 
 Basta cliccare sul badge e attendere l’avvio dell’ambiente interattivo.
 
