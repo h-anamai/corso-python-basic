@@ -165,4 +165,4 @@ Basta cliccare sul badge e attendere l’avvio dell’ambiente interattivo.
 ---
 
 © 2025 [hanam.io](https://hanam.ai) — All rights reserved.  
-This material is the exclusive property of gmxdev.io and may not be copied, distributed, or modified without permission.
+This material is the exclusive property of hanam.ai and may not be copied, distributed, or modified without permission.
