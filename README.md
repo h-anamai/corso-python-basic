@@ -11,6 +11,9 @@ Per domande e contenuti extra, unisciti ai nostri canali:
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/+gTwagH1r9kVjMjY0)
 [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/gkjMTFSVc)
 
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-online-brightgreen?style=for-the-badge&logo=github)](https://hanamai-ai.github.io/corso-python-basic/)
+
+
 
 ## 📚 Sommario
 
