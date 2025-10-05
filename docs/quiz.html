@@ -3,142 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Corso Python Base - Gratis e Open Source in Italiano"</title>
-    <meta name="description" content="Corso introduttivo in italiano pensato per aiutarti a muovere i primi passi nel linguaggio Python.">
-    <meta name="keywords" content="corso python, python base, impara python, corso gratuito python, python italiano, programmazione python, hanam.ai">
+    <title>Corso Python Base - Quiz Finale</title>
+    <meta name="description" content="Completa il quiz finale del corso Python Base e ottieni il badge digitale ufficiale.">
+    <meta name="keywords" content="corso python, quiz python, python base, badge python, hanam.ai">
     <meta name="author" content="hanam.ai">
-    <meta property="og:title" content="Corso Python Base - Gratis e Open Source in Italiano">
-    <meta property="og:description" content="Corso introduttivo in italiano pensato per aiutarti a muovere i primi passi nel linguaggio Python.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://h-anamai.github.io/corso-python-basic/">
-    <meta property="og:image" content="https://hanam.ai/assets/hanamai-logo-DgV2uQ4U.svg">
-    <link rel="icon" href="https://hanam.ai/assets/hanamai-logo-DgV2uQ4U.svg" type="image/svg">
-    <link rel="canonical" href="https://h-anamai.github.io/corso-python-basic/">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <link rel="icon" href="https://hanam.ai/assets/hanamai-logo-DgV2uQ4U.svg" type="image/svg+xml">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
+        * { box-sizing: border-box; }
         body {
-          font-family: 'Inter', sans-serif;
-          margin: 0;
-          padding: 0;
-          background-color: #f7f9fc;
-          color: #333;
+            font-family: 'Inter', sans-serif;
+            margin:0;
+            background-color: #f8fafc;
+            color: #333;
+            line-height: 1.6;
         }
         header {
-          background: linear-gradient(90deg, #306998, #4B8BBE);
-          color: white;
-          text-align: center;
-          padding: 80px 20px;
+            background: linear-gradient(120deg, #306998, #4B8BBE);
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px 80px;
+            position: relative;
         }
-        header h1 {
-          font-size: 3rem;
-          margin: 0;
-        }
-        header p {
-          font-size: 1.3rem;
-          margin-top: 10px;
-        }
-        main {
-          max-width: 1000px;
-          margin: 40px auto;
-          padding: 0 20px;
-        }
+        header img { width: 60px; height: 60px; opacity: 0.9; }
+        header h1 { font-size: 3rem; margin-top: 20px; }
+        header p { font-size: 1.25rem; max-width: 700px; margin: 10px auto 30px; opacity: 0.95; }
         .btn {
-          display: inline-block;
-          background-color: #306998;
-          color: white;
-          text-decoration: none;
-          padding: 14px 28px;
-          border-radius: 12px;
-          font-weight: bold;
-          margin: 5px;
-          transition: all 0.3s ease;
+            display: inline-block;
+            position: relative;
+            background-color: #FFD43B;
+            color: #222;
+            font-weight: 600;
+            font-size: 1.05rem;
+            padding: 14px 36px;
+            border-radius: 12px;
+            text-decoration: none;
+            transition: all 0.25s ease;
+            cursor: pointer;
+            border: none;
+            outline: none;
+            margin-top: 10px;
         }
-        .btn:hover {
-          background-color: #1f4e7a;
-          transform: translateY(-2px);
-          box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-        }
-        section {
-          margin-bottom: 60px;
-        }
-        h2 {
-          color: #306998;
-          margin-bottom: 20px;
-          font-size: 2rem;
-        }
-        .question { margin-bottom:20px; padding:15px; border:1px solid #ddd; border-radius:8px; background:#fff; }
-        .question h3 { margin-bottom:10px; color:#333; white-space:pre-line; }
-        button { padding:12px 24px; border:none; border-radius:8px; background:#306998; color:#fff; font-size:1rem; cursor:pointer; margin-top:10px; }
-        button:hover { background:#1f4e7a; }
+        .btn:hover { background-color: #ffcc00; transform: translateY(-3px); }
+        main { max-width: 1100px; margin: 60px auto; padding: 0 20px; }
+        h2 { color: #306998; font-size: 2rem; text-align:center; margin-bottom: 20px; }
+        .question { background:#fff; padding:20px; margin-bottom:20px; border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.08);}
+        .question h3 { margin-bottom:15px; }
         #quiz-result { margin-top:20px; font-size:1.2rem; font-weight:bold; text-align:center; }
-        #badge-link { display:none; text-align:center; margin-top:20px; padding:20px; border:2px solid #306998; border-radius:12px; background:#e0e7ff; }
+        #badge-link { display:none; text-align:center; margin-top:20px; padding:20px; border-radius:12px; background:#eaf2f8; }
         #badge-link img { width:200px; margin-top:10px; }
         #download-btn { display:none; margin-top:20px; }
-        #certificate { position:absolute; left:-9999px; top:0; width:600px; padding:40px; text-align:center; border:2px solid #306998; border-radius:12px; background:#e0e7ff; }
-        #certificate img { width:200px; margin-top:20px; }
-         footer {
-          text-align: center;
-          padding: 30px;
-          background-color: #eaeaea;
-        }
-        .opacity-90{
-            opacity: 0.9;
-        }
-        .object-contain {
-            object-fit: contain;
-        }
-        .w-8 {
-            width: 2rem;
-        }
-        .h-8 {
-            height: 2rem;
-        }
+        .socials { text-align:center; margin-top:30px; }
+        .socials a { display:inline-block; margin:0 15px; transition: transform 0.3s ease, opacity 0.3s ease; }
+        .socials a:hover { transform: translateY(-3px); opacity:0.85; }
+        footer { text-align:center; background:#f1f1f1; padding:30px; color:#555; font-size:0.9rem; }
     </style>
 </head>
-<body>
 
+<body>
 <header>
-    <a href="https://hanam.ai"><img src="https://hanam.ai/assets/hanamai-logo-DgV2uQ4U.svg" alt="Hanamai" class="w-8 h-8 object-contain opacity-90"></a>
-    <h1>Corso Python Basic</h1>
-    <p>Quiz finale.</p>
+    <a href="https://hanam.ai"><img src="https://hanam.ai/assets/hanamai-logo-DgV2uQ4U.svg" alt="Hanamai"></a>
+    <h1>Corso Python Base 🐍</h1>
+    <p>Completa il quiz finale per ottenere il badge digitale ufficiale!</p>
 </header>
 
-<form id="quiz-form"></form>
-<div style="text-align:center;">
-    <button onclick="checkQuiz(event)">Invia Risposte</button>
-</div>
-<div id="quiz-result"></div>
-<div id="badge-link">
-    <p>🎉 Complimenti, hai completato il corso! Ecco il tuo badge:</p>
-    <img src="https://img.shields.io/badge/Python%20Basic-Completato-success?style=for-the-badge&logo=python" alt="Badge completamento">
-</div>
+<main>
+    <form id="quiz-form"></form>
+    <div style="text-align:center;">
+        <button class="btn" onclick="checkQuiz(event)">Invia Risposte</button>
+    </div>
+    <div id="quiz-result"></div>
+    <div id="badge-link">
+        <p>🎉 Complimenti, hai completato il corso! Ecco il tuo badge:</p>
+        <img src="https://img.shields.io/badge/Python%20Base-Completato-success?style=for-the-badge&logo=python" alt="Badge completamento">
+    </div>
 
-<div id="certificate">
-    <h1>Certificato Python 🐍</h1>
-    <p>🎉 Complimenti! Hai completato il Corso Python Base</p>
-    <img src="https://img.shields.io/badge/Python%20Basic-Completato-success?style=for-the-badge&logo=python" alt="Badge completamento">
-</div>
+    <section class="socials">
+        <h2>Unisciti alla Community</h2>
+        <a href="https://github.com/h-anamai/corso-python-basic" title="GitHub" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" width="48" height="48">
+        </a>
+        <a href="https://t.me/+gTwagH1r9kVjMjY0" title="Telegram" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" width="48" height="48">
+        </a>
+        <a href="https://discord.gg/gkjMTFSVc" title="Discord" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png" alt="Discord" width="48" height="48">
+        </a>
+    </section>
+</main>
 
+<footer>
+    &copy; 2025 Hanamai. Tutti i diritti riservati. | Open Learning for Everyone.
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
 <script>
     const secretKey="pyCorso2025SecretKey";
 
     const rawQuestions=[
-    {q:"Quale keyword viene usata per definire una classe astratta in Python?", a:["abstract","@abstract","ABC","abc"], c:"ABC"},
-    {q:"Quale keyword viene usata per gestire eccezioni in Python?", a:["try/except","catch","handle","throw"], c:"try/except"},
-    {q:"Qual è il risultato di: 2 ** 3 ** 2 ?", a:["512","64","16","Errore"], c:"512"},
-    {q:"Qual è la differenza principale tra lista e tupla?", a:["Le tuple sono immutabili","Le liste sono immutabili","Le tuple sono più lente","Nessuna"], c:"Le tuple sono immutabili"},
-    {q:"Quale funzione serve per leggere tutto il contenuto di un file?", a:["read()","readline()","readlines()","open()"], c:"read()"},
-    {q:"Qual è il costrutto corretto per definire una funzione in Python?", a:["def mia_funzione():","function mia_funzione()","fun mia_funzione():","define mia_funzione()"], c:"def mia_funzione():"},
-    {q:"Qual è l’output di: 'Python'[1:4] ?", a:["yth","Pyt","tho","ytho"], c:"yth"},
-    {q:"Qual è il modulo standard per lavorare con espressioni regolari?", a:["re","regex","match","exp"], c:"re"},
-    {q:"In Python, qual è la differenza tra 'is' e '=='?", a:["'is' confronta identità, '==' confronta valori","Sono uguali","'==' confronta identità","'is' è per numeri, '==' per stringhe"], c:"'is' confronta identità, '==' confronta valori"},
-    {q:"Qual è il costrutto per gestire un contesto (es. aprire file)?", a:["with","context","using","as"], c:"with"},
-    {q:"Qual è il risultato di: bool('False')", a:["True","False","Errore","None"], c:"True"},
-    {q:"Quale libreria Python è usata per i test unitari?", a:["unittest","requests","json","tutte le precedenti"], c:"tutte le precedenti"},
-    {q:"Qual è il metodo per aggiungere un elemento ad un dizionario?", a:["dict[key]=val","dict.add()","dict.append()","dict.push()"], c:"dict[key]=val"},
-    {q:"Qual è l’output di: len(set([1,1,2,3]))", a:["3","4","2","1"], c:"3"},
-    {q:"Qual è la parola chiave per definire una classe?", a:["class","Class","defclass","object"], c:"class"}
+        {q:"Quale keyword viene usata per definire una classe astratta in Python?", a:["abstract","@abstract","ABC","abc"], c:"ABC"},
+        {q:"Quale keyword viene usata per gestire eccezioni in Python?", a:["try/except","catch","handle","throw"], c:"try/except"},
+        {q:"Qual è il risultato di: 2 ** 3 ** 2 ?", a:["512","64","16","Errore"], c:"512"},
+        {q:"Qual è la differenza principale tra lista e tupla?", a:["Le tuple sono immutabili","Le liste sono immutabili","Le tuple sono più lente","Nessuna"], c:"Le tuple sono immutabili"},
+        {q:"Quale funzione serve per leggere tutto il contenuto di un file?", a:["read()","readline()","readlines()","open()"], c:"read()"},
+        {q:"Qual è il costrutto corretto per definire una funzione in Python?", a:["def mia_funzione():","function mia_funzione()","fun mia_funzione():","define mia_funzione()"], c:"def mia_funzione():"},
+        {q:"Qual è l’output di: 'Python'[1:4] ?", a:["yth","Pyt","tho","ytho"], c:"yth"},
+        {q:"Qual è il modulo standard per lavorare con espressioni regolari?", a:["re","regex","match","exp"], c:"re"},
+        {q:"In Python, qual è la differenza tra 'is' e '=='?", a:["'is' confronta identità, '==' confronta valori","Sono uguali","'==' confronta identità","'is' è per numeri, '==' per stringhe"], c:"'is' confronta identità, '==' confronta valori"},
+        {q:"Qual è il costrutto per gestire un contesto (es. aprire file)?", a:["with","context","using","as"], c:"with"},
+        {q:"Qual è il risultato di: bool('False')", a:["True","False","Errore","None"], c:"True"},
+        {q:"Quale libreria Python è usata per i test unitari?", a:["pytest","unittest","requests","json"], c:"unittest"},
+        {q:"Qual è il metodo per aggiungere un elemento ad un dizionario?", a:["dict[key]=val","dict.add()","dict.append()","dict.push()"], c:"dict[key]=val"},
+        {q:"Qual è l’output di: len(set([1,1,2,3]))", a:["3","4","2","1"], c:"3"},
+        {q:"Qual è la parola chiave per definire una classe?", a:["class","Class","defclass","object"], c:"class"},
+        {q:"Come si definisce un decorator in Python?", a:["Con @ prima del nome della funzione","Con # prima del nome","Con def decoratore()","Non esistono"], c:"Con @ prima del nome della funzione"},
+        {q:"Qual è la sintassi corretta per una list comprehension che crea una lista di quadrati da 0 a 4?", a:["[x**2 for x in range(5)]","[x^2 for x in range(5)]","for x in range(5): x**2","list(x**2 for x in range(5))"], c:"[x**2 for x in range(5)]"},
+        {q:"Che cos’è una closure in Python?", a:["Una funzione interna che ricorda il contesto esterno","Una funzione anonima","Una classe interna","Un modulo importato"], c:"Una funzione interna che ricorda il contesto esterno"},
+        {q:"Come si crea un’eccezione personalizzata in Python?", a:["Creando una classe che eredita da Exception","Scrivendo raise Error()","Usando try/except","Non si può"], c:"Creando una classe che eredita da Exception"},
+        {q:"Qual è il comportamento di un decorator che riceve una funzione e la restituisce modificata?", a:["Modifica o estende la funzione originale","Copia la funzione senza modifiche","Cancella la funzione","Errore"], c:"Modifica o estende la funzione originale"}
     ];
 
     const encryptedAnswers={};
@@ -178,19 +160,6 @@
         document.getElementById("download-btn").style.display="none";
       }
     }
-
-
 </script>
-
-<section style="text-align:center;">
-    <a href="https://github.com/h-anamai/corso-python-basic" class="btn">Vai al GitHub Repo</a>
-    <a href="https://t.me/+gTwagH1r9kVjMjY0" class="btn social-btn">Unisciti al canale Telegram</a>
-    <a href="https://discord.gg/gkjMTFSVc" class="btn social-btn discord">Unisciti al gruppo Discord</a>
-</section>
-
-<footer>
-    &copy; 2025 Hanamai. All rights reserved. | Built with precision for real-time data streaming excellence.
-</footer>
-
 </body>
 </html>

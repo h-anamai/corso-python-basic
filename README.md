@@ -32,7 +32,8 @@ Visita il sito ufficiale del corso dove potrai anche ottenere il badge di comple
 | [08_librerie.ipynb](08_librerie_standard.ipynb)          | Usare moduli addizionali ed ambienti virtuali        |
 | [09_oop.ipynb](09_oop.ipynb)                             | Programmazione Orientata agli Oggetti, concetti base |
 | [10_testunit.ipynb](10_testunit.ipynb)                   | Progettare test unitari per i programmi              |
-| [11_progetto.ipynb](11_progetto.ipynb)                   | Realizzazione di una semplice applicazione           |
+| [11_decorator_closure.ipynb](11_decorator_closure.ipynb)                   | Decorator, closure e Funzioni Avanzate              |
+| [12_progetto.ipynb](12_progetto.ipynb)                   | Realizzazione di una semplice applicazione           |
 | [appendix.ipynb](appendix.ipynb)                         | La storia di Python                                  |
 
 ## 🎯 Obiettivi del corso
