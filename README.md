@@ -176,4 +176,31 @@ Basta cliccare sul badge e attendere l’avvio dell’ambiente interattivo.
 
 ---
 
+## 🧑‍💻 Risorse per imparare Jupyter e i notebook `.ipynb`
+
+Per approfondire come si usano i notebook interattivi e Jupyter, ecco alcuni link utili per imparare a sfruttare al meglio questi strumenti:
+
+- **Introduzione ufficiale a Jupyter Notebook**  
+  [Guida ufficiale Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html)
+
+- **Tutorial JupyterLab (interfaccia avanzata)**  
+  [Guida JupyterLab - Documentazione](https://jupyterlab.readthedocs.io/en/stable/)
+
+- **Video tutorial in italiano**  
+  [YouTube: Introduzione a Jupyter Notebook (ITA)](https://www.youtube.com/watch?v=Fz3aT6L3Nw4)
+
+- **Che cos'è un file `.ipynb`?**  
+  [Spiegazione dei notebook Jupyter (ipynb)](https://realpython.com/jupyter-notebook-introduction/)
+
+- **Esempi pratici di notebook**  
+  [Esempi notebook su GitHub](https://github.com/jupyter/notebook/tree/main/docs/source/examples)
+
+- **Corso gratuito Jupyter su DataCamp**  
+  [DataCamp: Introduction to Jupyter Notebook](https://www.datacamp.com/tutorial/jupyter-notebook)
+
+- **Galleria di notebook su Google Colab**  
+  [Colab Examples Gallery](https://colab.research.google.com/notebooks/)
+
+---
+
 &copy; 2025 Hanamai. All rights reserved. | Built with precision for real-time data streaming excellence.
