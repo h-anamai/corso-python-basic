@@ -28,7 +28,7 @@ jobs:
           mkdir -p pdfs
           for notebook in *.ipynb; do
             echo "Converting $notebook to PDF..."
-            jupyter nbconvert --to pdf "$notebook" --output-dir=pdfs
+            jupyter nbconvert --to pdf "$notebook" --output-dir=pdfs || echo "Warning: Failed to convert $notebook"
           done
       
       - name: Upload PDFs to release
