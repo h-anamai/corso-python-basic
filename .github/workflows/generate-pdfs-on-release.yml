@@ -1,0 +1,41 @@
+name: Generate PDFs on Release
+
+on:
+  release:
+    types: [created, published]
+
+jobs:
+  generate-pdfs:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-plain-generic
+          pip install jupyter nbconvert
+      
+      - name: Convert notebooks to PDF
+        run: |
+          mkdir -p pdfs
+          for notebook in *.ipynb; do
+            echo "Converting $notebook to PDF..."
+            jupyter nbconvert --to pdf "$notebook" --output-dir=pdfs
+          done
+      
+      - name: Upload PDFs to release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for pdf in pdfs/*.pdf; do
+            echo "Uploading $pdf to release..."
+            gh release upload ${{ github.event.release.tag_name }} "$pdf" --clobber
+          done
