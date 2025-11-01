@@ -21,12 +21,18 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-plain-generic
-          pip install jupyter nbconvert
+          pip install jupyter==1.1.1 nbconvert==7.16.6
       
       - name: Convert notebooks to PDF
         run: |
           mkdir -p pdfs
-          for notebook in *.ipynb; do
+          shopt -s nullglob
+          notebooks=(*.ipynb)
+          if [ ${#notebooks[@]} -eq 0 ]; then
+            echo "No notebooks found to convert"
+            exit 0
+          fi
+          for notebook in "${notebooks[@]}"; do
             echo "Converting $notebook to PDF..."
             jupyter nbconvert --to pdf "$notebook" --output-dir=pdfs || echo "Warning: Failed to convert $notebook"
           done
@@ -35,7 +41,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          for pdf in pdfs/*.pdf; do
+          shopt -s nullglob
+          pdfs=(pdfs/*.pdf)
+          if [ ${#pdfs[@]} -eq 0 ]; then
+            echo "No PDFs found to upload"
+            exit 0
+          fi
+          for pdf in "${pdfs[@]}"; do
             echo "Uploading $pdf to release..."
             gh release upload ${{ github.event.release.tag_name }} "$pdf" --clobber
           done
