@@ -23,6 +23,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-plain-generic
+          sudo apt-get install -y poppler-utils
           pip install jupyter==1.1.1 nbconvert==7.16.6
       
       - name: Convert notebooks to PDF
@@ -38,6 +39,12 @@ jobs:
             echo "Converting $notebook to PDF..."
             jupyter nbconvert --to pdf "$notebook" --output-dir=pdfs || echo "Warning: Failed to convert $notebook"
           done
+          
+          # Merge all PDFs into one
+          echo "Merging PDFs..."
+          pdfunite pdfs/*.pdf corso-python-basic.pdf
+          find pdfs -type f -name "*.pdf" ! -name "corso-python-basic.pdf" -delete  
+          echo "✅ Conversion complete! Final merged file: corso-python-basic.pdf"
       
       - name: Upload PDFs to release
         env:
