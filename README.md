@@ -47,6 +47,12 @@ Visita il sito ufficiale del corso dove potrai anche ottenere il badge di comple
 
 ---
 
+## 💻 Codice e soluzioni agli esercizi
+
+Tutte le soluzioni agli esercizi proposti nei vari capitoli sono disponibili nella cartella [_**code**_ ](code/) del repository e suddivisi per i vari capitoli.
+
+---
+
 ## ▶️ Come usare i notebook
 
 Puoi aprire e utilizzare i notebook in diversi modi, a seconda delle tue preferenze e del tuo ambiente di lavoro. Se vuoi lavorare in locale occorre prima installare `pip`.
@@ -200,12 +206,6 @@ Per approfondire come si usano i notebook interattivi e Jupyter, ecco alcuni lin
 
 - **Galleria di notebook su Google Colab**  
   [Colab Examples Gallery](https://colab.research.google.com/notebooks/)
-
----
-
-## 💻 Codice e soluzioni agli esercizi
-
-Tutte le soluzioni agli esercizi proposti nei vari capitoli sono disponibili nella cartella [_**code**_ ](code/) del repository e suddivisi per i vari capitoli.
 
 ---
 
