@@ -43,7 +43,6 @@ jobs:
           # Merge all PDFs into one
           echo "Merging PDFs..."
           pdfunite pdfs/*.pdf corso-python-basic.pdf
-          find pdfs -type f -name "*.pdf" ! -name "corso-python-basic.pdf" -delete  
           echo "✅ Conversion complete! Final merged file: corso-python-basic.pdf"
       
       - name: Upload PDFs to release
