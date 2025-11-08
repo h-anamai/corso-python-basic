@@ -42,8 +42,8 @@ jobs:
           
           # Merge all PDFs into one
           echo "Merging PDFs..."
-          pdfunite pdfs/*.pdf corso-python-basic.pdf
-          echo "✅ Conversion complete! Final merged file: corso-python-basic.pdf"
+          pdfunite pdfs/*.pdf pdfs/corso-python-basic.pdf
+          echo "Conversion complete! Final merged file: corso-python-basic.pdf"
       
       - name: Upload PDFs to release
         env:
