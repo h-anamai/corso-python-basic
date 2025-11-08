@@ -203,4 +203,10 @@ Per approfondire come si usano i notebook interattivi e Jupyter, ecco alcuni lin
 
 ---
 
-&copy; 2025 Hanamai. All rights reserved. | Built with precision for real-time data streaming excellence.
+## 💻 Codice e soluzioni agli esercizi
+
+Tutte le soluzioni agli esercizi proposti nei vari capitoli sono disponibili nella cartella [_**code**_ ](code/) del repository e suddivisi per i vari capitoli.
+
+---
+
+&copy; 2025 hanam.ai - All rights reserved. | Built with precision for real-time data streaming excellence.

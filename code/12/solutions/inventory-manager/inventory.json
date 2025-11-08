@@ -1,0 +1,9 @@
+{
+    "biscuits": {
+        "name": "biscuits",
+        "price": 121.0,
+        "quantity": 212,
+        "expiration_date": "12-12-2030",
+        "item_type": "FoodItem"
+    }
+}
