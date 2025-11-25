@@ -1,4 +1,4 @@
-# 🐍 Corso Python Basic
+# Corso Python Basic
 
 [![Python Version](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3110/)
 [![GitHub Release](https://img.shields.io/github/v/release/h-anamai/corso-python-basic?color=green)](https://github.com/h-anamai/corso-python-basic/releases)
@@ -17,7 +17,7 @@ Visita il sito ufficiale del corso dove potrai anche ottenere il badge di comple
 
 
 
-## 📚 Sommario
+## Sommario
 
 | Modulo                                                   | Descrizione                                          |
 |----------------------------------------------------------|------------------------------------------------------|
@@ -36,7 +36,7 @@ Visita il sito ufficiale del corso dove potrai anche ottenere il badge di comple
 | [12_progetto.ipynb](12_progetto.ipynb)                   | Realizzazione di una semplice applicazione           |
 | [appendix.ipynb](appendix.ipynb)                         | La storia di Python                                  |
 
-## 🎯 Obiettivi del corso
+## Obiettivi del corso
 
 - Imparare la sintassi base di Python
 - Eseguire codice in un ambiente interattivo (Jupyter)
@@ -47,17 +47,17 @@ Visita il sito ufficiale del corso dove potrai anche ottenere il badge di comple
 
 ---
 
-## 💻 Codice e soluzioni agli esercizi
+## Codice e soluzioni agli esercizi
 
 Tutte le soluzioni agli esercizi proposti nei vari capitoli sono disponibili nella cartella [_**code**_ ](code/) del repository e suddivisi per i vari capitoli.
 
 ---
 
-## ▶️ Come usare i notebook
+## Come usare i notebook
 
 Puoi aprire e utilizzare i notebook in diversi modi, a seconda delle tue preferenze e del tuo ambiente di lavoro. Se vuoi lavorare in locale occorre prima installare `pip`.
 
-### ⚙️ Installare `pip`
+### Installare `pip`
 
 `pip` è il gestore di pacchetti di Python e serve per installare librerie aggiuntive (come `notebook` o `jupyterlab`).  
 In molte distribuzioni recenti di Python è già incluso, ma in caso contrario puoi installarlo così, aprendo un terminale:
@@ -75,7 +75,7 @@ python -m pip --version
 
 ---
 
-#### 🔹 Installazione su Linux / macOS
+#### Installazione su Linux / macOS
 
 Se `pip` non è presente, puoi installarlo usando il comando:
 
@@ -100,7 +100,7 @@ brew install python3
 
 ---
 
-#### 🔹 Installazione su Windows
+#### Installazione su Windows
 
 1. Scarica l’installer ufficiale di Python da [python.org](https://www.python.org/downloads/).
 2. Durante l’installazione, assicurati di selezionare l’opzione **“Add Python to PATH”**.
@@ -113,7 +113,7 @@ python -m pip install --upgrade pip
 
 ---
 
-#### 🔹 Anaconda / Miniconda
+#### Anaconda / Miniconda
 
 Se utilizzi **Anaconda** o **Miniconda**, `pip` è già incluso.  
 Puoi verificarlo con:
@@ -128,7 +128,7 @@ In alternativa, puoi installarlo/aggiornarlo con:
 conda install pip
 ```
 
-### ✅ Con Jupyter Notebook (installazione locale)
+### Con Jupyter Notebook (installazione locale)
 
 Se vuoi lavorare in locale, installa Jupyter e avvia il server:
 
@@ -141,7 +141,7 @@ Dopo aver eseguito il comando, si aprirà una finestra nel browser da cui potrai
 
 ---
 
-### ✅ Con JupyterLab (interfaccia avanzata)
+### Con JupyterLab (interfaccia avanzata)
 
 JupyterLab offre un’interfaccia più moderna e completa rispetto a Jupyter Notebook:
 
@@ -152,7 +152,7 @@ jupyter lab
 
 ---
 
-### ✅ Con VS Code
+### Con VS Code
 
 1. Installa [Visual Studio Code](https://code.visualstudio.com/).
 2. Aggiungi l’estensione **Python** e l’estensione **Jupyter**.
@@ -160,7 +160,7 @@ jupyter lab
 
 ---
 
-### ✅ Con Google Colab (nessuna installazione richiesta)
+### Con Google Colab (nessuna installazione richiesta)
 
 Se non vuoi installare nulla, puoi aprire i notebook direttamente su [Google Colab](https://colab.research.google.com/):
 
@@ -172,7 +172,7 @@ Se non vuoi installare nulla, puoi aprire i notebook direttamente su [Google Col
 
 ---
 
-### ✅ Con Binder (esecuzione online dal repository)
+### Con Binder (esecuzione online dal repository)
 
 Puoi anche eseguire i notebook online senza installazioni tramite [Binder](https://mybinder.org/):
 
@@ -182,7 +182,7 @@ Basta cliccare sul badge e attendere l’avvio dell’ambiente interattivo.
 
 ---
 
-## 🧑‍💻 Risorse per imparare Jupyter e i notebook `.ipynb`
+## Risorse per imparare Jupyter e i notebook `.ipynb`
 
 Per approfondire come si usano i notebook interattivi e Jupyter, ecco alcuni link utili per imparare a sfruttare al meglio questi strumenti:
 
