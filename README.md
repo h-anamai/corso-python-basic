@@ -4,14 +4,14 @@
 [![GitHub Release](https://img.shields.io/github/v/release/h-anamai/corso-python-basic?color=green)](https://github.com/h-anamai/corso-python-basic/releases)
 
 
-Benvenuto al corso base di Python! Questo repository contiene una serie di notebook progettati per guidarti nei primi passi con il linguaggio Python, con esempi pratici ed esercitazioni.
+Benvenuti al corso base di Python! Questo repository contiene una serie di notebook progettati per iniziare ad usare con efficacia il linguaggio Python, con esempi pratici ed esercitazioni.
 
-Per domande e contenuti extra, unisciti ai nostri canali:
+Per domande e contenuti extra, sono a disposizione i seguenti nostri canali:
 
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/+gTwagH1r9kVjMjY0)
 [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/gkjMTFSVc)
 
-Visita il sito ufficiale del corso dove potrai anche ottenere il badge di completamento del corso!
+Inoltre è possibile visitare il sito ufficiale del corso dove si potrà ottenere il badge di completamento del corso!
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-online-brightgreen?style=for-the-badge&logo=github)](https://h-anamai.github.io/corso-python-basic/)
 
@@ -55,19 +55,19 @@ Tutte le soluzioni agli esercizi proposti nei vari capitoli sono disponibili nel
 
 ## Come usare i notebook
 
-Puoi aprire e utilizzare i notebook in diversi modi, a seconda delle tue preferenze e del tuo ambiente di lavoro. Se vuoi lavorare in locale occorre prima installare `pip`.
+Si possono aprire e utilizzare i notebook in diversi modi, a seconda delle preferenze e dell'ambiente di lavoro utilizzato. Per lavorare in locale occorre prima installare `pip`.
 
 ### Installare `pip`
 
 `pip` è il gestore di pacchetti di Python e serve per installare librerie aggiuntive (come `notebook` o `jupyterlab`).  
-In molte distribuzioni recenti di Python è già incluso, ma in caso contrario puoi installarlo così, aprendo un terminale:
+In molte distribuzioni recenti di Python è già incluso, ma in caso contrario si pul installare aprendo un terminale:
 
 ```bash
 pip --version
 ```
 
 Se il comando restituisce un numero di versione, significa che `pip` è già installato.  
-In alternativa, puoi provare con:
+In alternativa, provare con:
 
 ```bash
 python -m pip --version
@@ -77,13 +77,13 @@ python -m pip --version
 
 #### Installazione su Linux / macOS
 
-Se `pip` non è presente, puoi installarlo usando il comando:
+Se `pip` non è presente, si può installare usando il comando:
 
 ```bash
 python3 -m ensurepip --upgrade
 ```
 
-oppure installa tramite **apt** (Ubuntu/Debian):
+oppure installarlo tramite **apt** (Ubuntu/Debian):
 
 ```bash
 sudo apt update
@@ -102,10 +102,10 @@ brew install python3
 
 #### Installazione su Windows
 
-1. Scarica l’installer ufficiale di Python da [python.org](https://www.python.org/downloads/).
-2. Durante l’installazione, assicurati di selezionare l’opzione **“Add Python to PATH”**.
+1. Scaricare l’installer ufficiale di Python da [python.org](https://www.python.org/downloads/).
+2. Durante l’installazione, assicurasi di selezionare l’opzione **“Add Python to PATH”**.
 3. `pip` verrà installato automaticamente.
-4. Se serve, puoi aggiornarlo con:
+4. Se serve, aggiornarlo con:
 
 ```bash
 python -m pip install --upgrade pip
@@ -115,14 +115,14 @@ python -m pip install --upgrade pip
 
 #### Anaconda / Miniconda
 
-Se utilizzi **Anaconda** o **Miniconda**, `pip` è già incluso.  
-Puoi verificarlo con:
+Se si utilizza **Anaconda** o **Miniconda**, `pip` è già incluso.  
+Verificarlo con:
 
 ```bash
 conda list pip
 ```
 
-In alternativa, puoi installarlo/aggiornarlo con:
+In alternativa, installarlo/aggiornarlo con:
 
 ```bash
 conda install pip
@@ -130,14 +130,14 @@ conda install pip
 
 ### Con Jupyter Notebook (installazione locale)
 
-Se vuoi lavorare in locale, installa Jupyter e avvia il server:
+Se si vuole lavorare in locale, installare Jupyter e avviare il server:
 
 ```bash
 pip install notebook
 jupyter notebook
 ```
 
-Dopo aver eseguito il comando, si aprirà una finestra nel browser da cui potrai navigare tra le cartelle e aprire i file `.ipynb`.
+Dopo aver eseguito il comando, si aprirà una finestra nel browser da cui si potrà navigare tra le cartelle ed aprire i file `.ipynb`.
 
 ---
 
@@ -154,27 +154,27 @@ jupyter lab
 
 ### Con VS Code
 
-1. Installa [Visual Studio Code](https://code.visualstudio.com/).
-2. Aggiungi l’estensione **Python** e l’estensione **Jupyter**.
-3. Apri il progetto e clicca direttamente sui file `.ipynb` per eseguirli all’interno di VS Code.
+1. Installare [Visual Studio Code](https://code.visualstudio.com/).
+2. Aggiunger l’estensione **Python** e l’estensione **Jupyter**.
+3. Aprire il progetto e cliccare direttamente sui file `.ipynb` per eseguirli all’interno di VS Code.
 
 ---
 
 ### Con Google Colab (nessuna installazione richiesta)
 
-Se non vuoi installare nulla, puoi aprire i notebook direttamente su [Google Colab](https://colab.research.google.com/):
+Se si vuole installare nulla, si possono aprire i notebook direttamente su [Google Colab](https://colab.research.google.com/):
 
 [![Apri in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/h-anamai/corso-python-basic)
 
-1. Vai su Colab e seleziona **File → Carica notebook**.
-2. Oppure usa il badge qui sopra.
-3. Avrai a disposizione un ambiente gratuito in cloud, già pronto per l’uso.
+1. Andare su Colab e selezionare **File → Carica notebook**.
+2. Oppure usare il badge qui sopra.
+3. Si avrò a disposizione un ambiente gratuito in cloud, già pronto per l’uso.
 
 ---
 
 ### Con Binder (esecuzione online dal repository)
 
-Puoi anche eseguire i notebook online senza installazioni tramite [Binder](https://mybinder.org/):
+Si possono anche eseguire i notebook online senza installazioni tramite [Binder](https://mybinder.org/):
 
 [![Esegui su Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/h-anamai/corso-python-basic/HEAD)
 
