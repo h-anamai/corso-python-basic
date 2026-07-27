@@ -6,11 +6,6 @@
 
 Benvenuti al corso base di Python! Questo repository contiene una serie di notebook progettati per iniziare ad usare con efficacia il linguaggio Python, con esempi pratici ed esercitazioni.
 
-Per domande e contenuti extra, sono a disposizione i seguenti nostri canali:
-
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/+gTwagH1r9kVjMjY0)
-[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/gkjMTFSVc)
-
 Inoltre è possibile visitare il sito ufficiale del corso dove si potrà ottenere il badge di completamento del corso!
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-online-brightgreen?style=for-the-badge&logo=github)](https://h-anamai.github.io/corso-python-basic/)
